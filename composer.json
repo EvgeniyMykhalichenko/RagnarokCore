@@ -1,0 +1,22 @@
+{
+    "name": "evgenijmihajlicenko/ragnarok-core",
+    "description": "The Ragnarok framework core",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "evgenijmihajlicenko",
+            "email": "evgeniymykhalichenko@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/Illuminate/Foundation/helpers.php",
+            "src/Illuminate/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Ragnarok\\": "src/Ragnarok/"
+        }
+    }
+}
